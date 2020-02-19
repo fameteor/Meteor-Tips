@@ -7,7 +7,9 @@ From METEOR version 1.x ? `meteor create myProject --full` to create to full pro
 ## FLOW-ROUTER
 
 `FlowRouter.getRouteName()` gets the name of the route
+
 `FlowRouter.getParam(paramName)` returns the value of a single URL parameter
+
 `FlowRouter.getQueryParam(paramName)` returns the value of a single URL query parameter
 
 
