@@ -22,7 +22,9 @@
 
         <li class="{{isActivePath '/home'}}">...</li>
         <li class="{{isActivePath path='/home'}}">...</li>
-        <li class="{{isActivePath regex='home|dashboard'}}">...</li> // if path contains...
+        <li class="{{isActivePath regex='ajouter|autre'}}">...</li>    // if path contains `ajouter` ou `autre`
+        <li class="dropdown {{isActivePath regex='^/ajouter'}}">      // Start with `/ajouter`
+        <li class="dropdown {{isActivePath regex='/ajouter$'}}">      // End with `/ajouter`
  
 
 ## IRON-ROUTER migration
@@ -38,5 +40,9 @@ Find where `Router` is used.
 
 Delete /client/routerHooks.js, template/router/RouterLayoutApplication.html
 
-/template/routerna.js modifications : activeIfRouteIs, activeIfRouteContains, activeIfAdminMenu
+/template/routerna.js modifications : supprimer helpers activeIfRouteIs, activeIfRouteContains, activeIfAdminMenu
+
+remplacer activeIfRouteIs par isActivePath in routerNav.html et changer le nom de route par le path
+
+remplacer par activeIfRouteContains {{isActivePath regex='$\\/ajouter'}}
 
