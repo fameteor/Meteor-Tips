@@ -12,4 +12,4 @@ From METEOR version 1.x ? `meteor create myProject --full` to create to full pro
 
 `meteor add kadira:blaze-layout`
 
-Find where `Router` is user.
+Find where `Router` is user. 
