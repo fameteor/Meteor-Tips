@@ -4,13 +4,15 @@
 
 From METEOR version 1.x ? `meteor create myProject --full` to create to full project recommended structure.
 
-## FLOW-ROUTER
+## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
 `FlowRouter.getRouteName()` gets the name of the route
 
 `FlowRouter.getParam(paramName)` returns the value of a single URL parameter
 
 `FlowRouter.getQueryParam(paramName)` returns the value of a single URL query parameter
+
+- to create a path : `FlowRouter.path(pathDef, params, queryParams);`
 
 
 
@@ -27,3 +29,4 @@ Find where `Router` is used.
 Delete /client/routerHooks.js, template/router/RouterLayoutApplication.html
 
 /template/routerna.js modifications : activeIfRouteIs, activeIfRouteContains, activeIfAdminMenu
+
