@@ -23,6 +23,7 @@
         meteor remove iron:router
         meteor add kadira:flow-router
         meteor add kadira:blaze-layout
+        meteor add zimme:active-route
 
 Find where `Router` is used.
 
