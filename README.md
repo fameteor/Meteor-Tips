@@ -16,6 +16,30 @@
 
 - to create a path : `FlowRouter.path(pathDef, params, queryParams);`
 
+### Subscriptions
+#### Global
+
+        FlowRouter.subscriptions = function() {
+                this.register('myCourses', Meteor.subscribe('courses'));
+        };
+        
+#### Associated with a route
+
+        FlowRouter.route('/blog/:postId', {
+                subscriptions: function(params, queryParams) {
+                        this.register('myPost', Meteor.subscribe('blogPost', params.postId));
+                }
+        });
+
+#### To check if subscriptions are loaded
+
+After you've registered your subscriptions, you can reactively check for the status of those subscriptions like this:
+
+        Tracker.autorun(function() {
+                console.log("Is myPost ready?:", FlowRouter.subsReady("myPost"));
+                console.log("Are all subscriptions ready?:", FlowRouter.subsReady());
+        });
+
 ## [zimme:active-route](https://github.com/meteor-activeroute/legacy)
 
 - to set `active` or `false` :
