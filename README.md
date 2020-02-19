@@ -16,6 +16,7 @@
 
 - to create a path : `FlowRouter.path(pathDef, params, queryParams);`
 
+## [zimme:active-route](https://github.com/meteor-activeroute/legacy)
 
 
 ## IRON-ROUTER migration
