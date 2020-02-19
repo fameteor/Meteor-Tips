@@ -18,6 +18,12 @@
 
 ## [zimme:active-route](https://github.com/meteor-activeroute/legacy)
 
+- to set `active` or `false` :
+
+        <li class="{{isActivePath '/home'}}">...</li>
+        <li class="{{isActivePath path='/home'}}">...</li>
+        <li class="{{isActivePath regex='home|dashboard'}}">...</li> // if path contains...
+ 
 
 ## IRON-ROUTER migration
 
