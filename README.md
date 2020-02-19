@@ -16,6 +16,8 @@
 
 - to create a path : `FlowRouter.path(pathDef, params, queryParams);`
 
+logging and authentication : https://medium.com/@satyavh/using-flow-router-for-authentication-ba7bb2644f42
+
 ### Subscriptions
 #### Global
 
