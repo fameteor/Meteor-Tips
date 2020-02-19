@@ -2,7 +2,9 @@
 
 ## METEOR command line
 
-From METEOR version 1.x ? `meteor create myProject --full` to create to full project recommended structure.
+- to create to full project recommended structure (from METEOR version 1.x ?) : `meteor create myProject --full`
+
+- to create a specific METEOR version project : `meteor create --release X.Y.Z some-app-name`
 
 ## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
