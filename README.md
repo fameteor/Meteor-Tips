@@ -8,6 +8,8 @@
 
 - list the dependancies in tree format : `meteor list --tree`
 
+- version : `meteor --version`
+
 ## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
 `FlowRouter.getRouteName()` gets the name of the route
