@@ -4,7 +4,7 @@
 
 - to create to full project recommended structure (from METEOR version 1.x ?) : `meteor create myProject --full`
 
-- to create a specific METEOR version project : `meteor create --release X.Y.Z some-app-name`
+- to create a specific METEOR version project : `meteor create --release 1.7 some-app-name`
 
 ## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
