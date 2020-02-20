@@ -6,6 +6,8 @@
 
 - to create a specific METEOR version project : `meteor create --release 1.7 some-app-name`
 
+- list the dependancies in tree format : `meteor list --tree`
+
 ## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
 `FlowRouter.getRouteName()` gets the name of the route
