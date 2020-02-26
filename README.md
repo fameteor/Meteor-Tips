@@ -11,8 +11,9 @@
 - version : `meteor --version`
 
 ## To desinstall Meteor (installed with Chocolatey)
+`choco uninstall meteor`
 
-Delete the directory : `c:/utilisateurs/USER/AppData/Local/.meteor`
+That will delete the directory : `c:/utilisateurs/USER/AppData/Local/.meteor`
 
 ## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
