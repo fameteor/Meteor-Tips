@@ -10,6 +10,10 @@
 
 - version : `meteor --version`
 
+## To desinstall Meteor (installed with Chocolatey)
+
+Delete the directory : `c:/utilissteurs/USER/AppData/Local/.meteor`
+
 ## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
 `FlowRouter.getRouteName()` gets the name of the route
