@@ -12,7 +12,7 @@
 
 ## To desinstall Meteor (installed with Chocolatey)
 
-Delete the directory : `c:/utilissteurs/USER/AppData/Local/.meteor`
+Delete the directory : `c:/utilisateurs/USER/AppData/Local/.meteor`
 
 ## [FLOW-ROUTER](https://github.com/kadirahq/flow-router#api)
 
