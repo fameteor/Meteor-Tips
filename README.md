@@ -1,5 +1,19 @@
 # Tips
 
+## DDP debugging on client
+Input the following code on the client console to log DDP messages and their (aproximative) size : 
+`var oldSend = Meteor.connection._stream.send;
+
+Meteor.connection._stream.send = function() {
+  oldSend.apply(this, arguments);
+  console.log(arguments[0]);
+};
+
+Meteor.connection._stream.on('message', function (msg) {
+  console.log("Message DDP (longueur : " + msg.length + ") : ");
+  console.log(msg);
+});`
+
 ## METEOR command line
 
 - to create to full project recommended structure (from METEOR version 1.x ?) : `meteor create myProject --full`
