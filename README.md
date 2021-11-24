@@ -11,7 +11,7 @@ Meteor.connection._stream.send = function() {
 };
 
 Meteor.connection._stream.on('message', function (msg) {
-  console.log("Message DDP (longueur : " + msg.length + ") : ");
+  console.log("DDP message (length : " + msg.length + ") : ");
   console.log(msg);
 });
 ```
