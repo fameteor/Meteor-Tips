@@ -1,6 +1,6 @@
 # Tips
 
-## DDP debugging on client
+## DDP debugging on METEOR client
 Input the following code on the client console to log DDP messages and their (aproximative) size : 
 ```
 var oldSend = Meteor.connection._stream.send;
