@@ -95,5 +95,10 @@ Delete /client/routerHooks.js, template/router/RouterLayoutApplication.html
 
 remplacer activeIfRouteIs par isActivePath in routerNav.html et changer le nom de route par le path
 
+# useful libraries
+
+- time scheduler : https://github.com/msavin/SteveJobs
+- 
+
 remplacer par activeIfRouteContains {{isActivePath regex='$\\/ajouter'}}
 
