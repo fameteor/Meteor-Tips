@@ -100,5 +100,8 @@ remplacer par activeIfRouteContains {{isActivePath regex='$\\/ajouter'}}
 # useful libraries
 
 - time scheduler : https://github.com/msavin/SteveJobs
--
+
+# Microservices
+
+- tips to deploy microservices : https://github.com/cult-of-coders/meteor-tuts/blob/master/source/chapters/3/microservices.md
 
