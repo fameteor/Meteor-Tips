@@ -1,5 +1,8 @@
 # Tips
 
+## Certificates problem when starting old meteor versions
+- launch Meteor using command : `NODE_TLS_REJECT_UNAUTHORIZED=0 meteor`
+
 ## DDP debugging on METEOR client
 Input the following code on the client console to log DDP messages and their (approximative) size : 
 ```
