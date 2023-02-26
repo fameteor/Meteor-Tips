@@ -1,5 +1,8 @@
 # Tips
 
+## Update to a specific Meteor version
+- meteor update --release 1.2`
+
 ## Cleaning the Meteor CACHE (development on Unix only)
 - `npm install -g meteor-cleaner`
 - `clean-package-cache`
