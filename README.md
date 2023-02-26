@@ -1,5 +1,9 @@
 # Tips
 
+## Cleaning the Meteor CACHE (development on Unix only)
+- `npm install -g meteor-cleaner`
+- `clean-package-cache
+
 ## Certificates problem when starting old meteor versions
 - launch Meteor using command : `NODE_TLS_REJECT_UNAUTHORIZED=0 meteor`
 
