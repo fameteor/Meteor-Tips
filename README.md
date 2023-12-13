@@ -1,5 +1,9 @@
 # Tips
 
+## Access to mongo shell on last Meteor version
+- need to install Mongoshell (Mongo V6 for Meteor 2) and use : `mongosh mongodb://127.0.0.1:3001/meteor
+`
+
 ## Update to a specific Meteor version
 - `meteor update --release 1.2`
 
