@@ -121,5 +121,6 @@ remplacer par activeIfRouteContains {{isActivePath regex='$\\/ajouter'}}
 
 # METEOR V3
 - package compatibility : `https://docs.google.com/spreadsheets/u/0/d/1JbUZmJab3owZ9LV71Ubto32YX_QWQljRypJTOQupxL8/htmlview`
+- to reload Meteor tests DB from `~/gen_prod/` : `mongorestore gen_prod/ --uri="mongodb://localhost:3001" --db="meteor"`
   
 
